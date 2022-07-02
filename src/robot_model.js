@@ -15,7 +15,7 @@ Rubber
 Shrimp
 
 */
-const robotName = [
+export const robotName = [
     {
         "id": '1',
         'name': 'Gere',
