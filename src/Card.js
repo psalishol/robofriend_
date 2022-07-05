@@ -1,12 +1,10 @@
 import React from "react";
-import 'tachyons'
+import "tachyons";
 
-const Card = (props) => {
-    const {name, price} = props;
-
+const Card = ({ name, price }) => {
   return (
     <div className="bg-light-green dib br4 ma2 pa3 grow bw2 shadow-5">
-      <img src={`https://robohash.org/${name}?200x200`}  alt="component"/>
+      <img src={`https://robohash.org/${name}?200x200`} alt="component" />
 
       <div>
         <h2>{name}</h2>
@@ -15,6 +13,5 @@ const Card = (props) => {
     </div>
   );
 };
-
 
 export default Card;
